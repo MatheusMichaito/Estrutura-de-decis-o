@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+</head>
+<body>
+    <header>
+        <h1>Carrinho  de Compras</h1>
+    </header>
+
+<div class="container">
+    <label>Selecione uma opção</label>
+    <select id="produtos">
+        <option ></option>
+        <option value="Hamburguer Simples">Hamburguer Simples</option>
+        <option value="Hamburguer Duplo">Hamburguer Duplo</option>
+        <option value="Hamburguer Duplo com Bacon">Hamburguer Duplo com Bacon</option>
+    </select>
+    <button id="Comprar">Comprar</button>
+</div>
+
+<footer>
+<ul>
+    <li> Mercado do Flavin</li>
+    <li> Localizado na Tapera</li>
+    <li>A fila mais curta do país</li>
+</ul>
+
+</footer>
+<script src="./js//script.js"></script>
+</body>
+</html>
